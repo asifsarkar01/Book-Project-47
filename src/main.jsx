@@ -13,6 +13,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import BookDetails from './components/BookDetails/BookDetails';
 import Tab from './components/Tab/Tab';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -44,5 +45,6 @@ createRoot(document.getElementById('root')).render(
 
   <StrictMode>
      <RouterProvider router={router} />
+     
   </StrictMode>,
 )
